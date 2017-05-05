@@ -515,6 +515,25 @@
 			]
 		},
 		{
+			"id": 9,
+			"label": {
+				"lang_tag": "ui7_a_devices_load_level_changes",
+				"text": "A device's load level changes"
+			},
+			"serviceId": "urn:upnp-org:serviceId:DimmingWithEvents1",
+			"argumentList": [
+				{
+					"id": 1,
+					"dataType": "ui1",
+					"name": "LoadLevelStatus",
+					"comparisson": "<=",
+					"value": "100",
+					"prefix": {},
+					"suffix": {}
+				}
+			]
+		},
+		{
 			"id": 5,
 			"label": {
 				"lang_tag": "ui7_energy_usage_goes_above",

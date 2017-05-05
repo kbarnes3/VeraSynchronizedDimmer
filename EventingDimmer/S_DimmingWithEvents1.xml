@@ -15,7 +15,7 @@
         <maximum>100</maximum>
       </allowedValueRange>
     </stateVariable>
-    <stateVariable>
+    <stateVariable sendEvents="yes">
       <name>LoadLevelStatus</name>
       <sendEventsAttribute>yes</sendEventsAttribute>
       <dataType>ui1</dataType>

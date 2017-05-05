@@ -16,7 +16,7 @@
       <service>
         <serviceType>urn:schemas-upnp-org:service:Dimming:1</serviceType>
         <serviceId>urn:upnp-org:serviceId:Dimming1</serviceId>
-        <SCPDURL>S_Dimming1.xml</SCPDURL>
+        <SCPDURL>S_DimmingWithEvents1.xml</SCPDURL>
       </service>
       <service>
         <serviceType>urn:schemas-micasaverde-com:service:EnergyMetering:1</serviceType>
